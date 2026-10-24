@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cd2dc910-2517-4b5a-9faa-1aa5cf9c9e32)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "HV_RAW_POS" (shape output) (at 267.97 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ed27b68a-eea7-4cab-95d1-7eac9d7c3855)
+  )
+  (hierarchical_label "HV_RAW_NEG" (shape output) (at 266.7 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f84f35a4-20e5-45e5-94a2-30c8055c5285)
+  )
+)

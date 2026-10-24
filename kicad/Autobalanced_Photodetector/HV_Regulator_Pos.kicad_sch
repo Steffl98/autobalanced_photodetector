@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 307b0692-e3ed-451a-b1a7-f2fb45182974)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "HV_RAW_POS" (shape input) (at 29.21 53.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f2d68b21-9d73-468b-9e83-4a9efbf99d78)
+  )
+)

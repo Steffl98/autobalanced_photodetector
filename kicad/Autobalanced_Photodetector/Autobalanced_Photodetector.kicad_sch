@@ -1,5 +1,99 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 97.79 45.72) (xy 144.78 45.72))
+    (stroke (width 0) (type default))
+    (uuid fc15a825-9495-416c-9511-79e4adbd46ec)
+  )
+
+  (sheet (at 49.53 99.06) (size 81.28 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 365521f5-8f23-48d9-a250-87259c9fbaa4)
+    (property "Sheetname" "Balance_Controller" (at 49.53 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Balance_Controller.kicad_sch" (at 49.53 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Autobalanced_Photodetector"
+        (path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 86.36) (size 86.36 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 653c35b7-5418-4860-b061-8fcbd490b9c8)
+    (property "Sheetname" "HV_Regulator_Neg" (at 146.05 85.6484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HV_Regulator_Neg.kicad_sch" (at 146.05 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Autobalanced_Photodetector"
+        (path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 34.29) (size 85.09 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8217920b-28da-4932-a43e-d0f9a2380639)
+    (property "Sheetname" "HV_Regulator_Pos" (at 144.78 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HV_Regulator_Pos.kicad_sch" (at 144.78 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "HV_RAW_POS" input (at 144.78 45.72 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bdfd2831-01b2-47da-8f23-6e07f05c00e9)
+    )
+    (instances
+      (project "Autobalanced_Photodetector"
+        (path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 17.78 29.21) (size 80.01 50.8) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a9f5f502-1f1d-4125-a6f0-889092074595)
+    (property "Sheetname" "Flyback" (at 17.78 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Flyback.kicad_sch" (at 17.78 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "HV_RAW_POS" output (at 97.79 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ae988c66-d629-4ff7-8f0f-9c092e42c682)
+    )
+    (pin "HV_RAW_NEG" output (at 97.79 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2e280359-6aa1-4c1c-9794-31e296206476)
+    )
+    (instances
+      (project "Autobalanced_Photodetector"
+        (path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

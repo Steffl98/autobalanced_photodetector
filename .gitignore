@@ -1,3 +1,12 @@
+# Ignore everything in project root
 /*
 !/.gitignore
 !/kicad/
+
+# KiCad temporary files
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
