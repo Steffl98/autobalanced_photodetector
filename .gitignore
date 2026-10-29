@@ -1,12 +1,54 @@
+# ==========================================
+# Project root
+# ==========================================
+
 # Ignore everything in project root
 /*
 !/.gitignore
 !/kicad/
 
-# KiCad temporary files
+
+# ==========================================
+# KiCad temporary files and backups
+# ==========================================
+
+# Local user preferences
 *.kicad_prl
+
+# Lock files
 *.lck
+
+# Automatic backups
 *-backups/
 _autosave-*
+\#auto_saved_files\#
+*.bak
 *.kicad_sch-bak
 *.kicad_pcb-bak
+
+# Cache files
+fp-info-cache
+*-cache.lib
+
+
+# ==========================================
+# Editor and OS temporary files
+# ==========================================
+
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+
+# ==========================================
+# KiCad project files (keep tracked)
+# ==========================================
+
+# *.kicad_pro    Project configuration
+# *.kicad_sch    Schematics
+# *.kicad_pcb    PCB layout
+# *.kicad_sym    Custom symbol libraries
+# sym-lib-table  Symbol library configuration
+# fp-lib-table   Footprint library configuration

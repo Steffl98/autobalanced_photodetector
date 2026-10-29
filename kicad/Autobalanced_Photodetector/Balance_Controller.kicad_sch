@@ -7,4 +7,21 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "V_DIFF_DC" (shape input) (at 34.29 71.12 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 342451ce-f208-4a3e-91e5-42d9d89a7a5b)
+  )
+  (hierarchical_label "V_TRIM" (shape output) (at 252.73 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 416b4189-3c22-4bc6-b6c2-74e6fd31aa8d)
+  )
+  (hierarchical_label "BAL_MODE" (shape input) (at 34.29 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6e9f4340-fe00-48c4-a1a3-b5dac09df8ca)
+  )
+  (hierarchical_label "BAL_RESET" (shape input) (at 34.29 113.03 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d76f55f9-a103-4a53-8d32-b6727ae8cd4e)
+  )
 )

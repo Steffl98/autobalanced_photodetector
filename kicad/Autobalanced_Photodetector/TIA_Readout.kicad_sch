@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 15a6b2ff-eb7e-464a-85a4-f4d272554add)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "TIA_OUT" (shape output) (at 261.62 92.71 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 56c2b44b-9578-4faf-95d0-4d431ac1bcf8)
+  )
+  (hierarchical_label "READ_MODE" (shape input) (at 16.51 133.35 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 60e591ff-a115-4064-a57a-d01da0db0338)
+  )
+  (hierarchical_label "V_DIFF_DC" (shape output) (at 261.62 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 96463b7d-c8ad-43fd-8a5f-62a3c31d24c4)
+  )
+  (hierarchical_label "HV_BIAS_POS" (shape input) (at 16.51 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d6d54c31-8233-4a1a-8e0e-816981a373c9)
+  )
+  (hierarchical_label "HV_BIAS_NEG" (shape input) (at 15.24 107.95 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid faf78d2e-450d-4b6f-9935-35d5560ccb17)
+  )
+)

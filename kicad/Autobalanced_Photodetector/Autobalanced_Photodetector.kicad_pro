@@ -327,6 +327,22 @@
     [
       "365521f5-8f23-48d9-a250-87259c9fbaa4",
       "Balance_Controller"
+    ],
+    [
+      "ff0273fb-2e70-4066-9ddd-1b0cbd26b43d",
+      "Reference_Control"
+    ],
+    [
+      "5695a9d4-b0ef-41c5-860f-087ef07631f4",
+      "Protection_Sequencing"
+    ],
+    [
+      "11221223-a2ef-45cb-8295-3887b73a0bd3",
+      "TIA_Readout"
+    ],
+    [
+      "b45cc079-fdc2-44d5-b478-54598c3f31dc",
+      "Power_Interfaces"
     ]
   ],
   "text_variables": {}
