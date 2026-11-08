@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM5156H")(type "KiCad")(uri "${KIPRJMOD}/LM5156H/footprints.pretty")(options "")(descr ""))
+)
