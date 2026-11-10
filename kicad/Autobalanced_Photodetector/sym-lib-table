@@ -1,5 +1,11 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Photodetector_Symbols")(type "KiCad")(uri "${KIPRJMOD}/Photodetector_Symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "LM5156H")(type "KiCad")(uri "${KIPRJMOD}/LM5156H/2026-11-08_20-25-21.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA4192") (type "KiCad") (uri "${KIPRJMOD}/vendor/OPA4192/OPA4192.kicad_sym") (options "") (descr "TI OPA4192IPWR"))
+  (lib (name "TMUX6136") (type "KiCad") (uri "${KIPRJMOD}/vendor/TMUX6136/TMUX6136.kicad_sym") (options "") (descr "TI TMUX6136PWR"))
+  (lib (name "Lorlin") (type "KiCad") (uri "${KIPRJMOD}/vendor/Lorlin/Lorlin.kicad_sym") (options "") (descr "Lorlin CK1051"))
+  (lib (name "OPA659") (type "KiCad") (uri "${KIPRJMOD}/vendor/OPA659/OPA659.kicad_sym") (options "") (descr "OPA659IDRBT"))
+  (lib (name "Coto") (type "KiCad") (uri "${KIPRJMOD}/vendor/Coto/Coto.kicad_sym") (options "") (descr "Local Coto relay library"))
+  (lib (name "Photodetector_Symbols") (type "KiCad") (uri "${KIPRJMOD}/Photodetector_Symbols.kicad_sym") (options "") (descr ""))
+  (lib (name "LM5156H") (type "KiCad") (uri "${KIPRJMOD}/LM5156H/2026-11-08_20-25-21.kicad_sym") (options "") (descr ""))
+  (lib (name "Eaton") (type "KiCad") (uri "${KIPRJMOD}/vendor/Eaton/Eaton.kicad_sym") (options "") (descr "Local vendor library; do not redistribute standalone"))
 )
