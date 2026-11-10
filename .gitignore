@@ -52,3 +52,17 @@ Thumbs.db
 # *.kicad_sym    Custom symbol libraries
 # sym-lib-table  Symbol library configuration
 # fp-lib-table   Footprint library configuration
+
+# Imported PSU: local vendor libraries and generated import reports
+/kicad/Autobalanced_Photodetector/vendor/Eaton/
+/kicad/Autobalanced_Photodetector/vendor/Coto/
+/kicad/Autobalanced_Photodetector/vendor/OPA659/
+/kicad/Autobalanced_Photodetector/vendor/Lorlin/
+/kicad/Autobalanced_Photodetector/vendor/TMUX6136/
+/kicad/Autobalanced_Photodetector/vendor/OPA4192/
+/kicad/Autobalanced_Photodetector/LIB_OPA4192IPWR/
+/kicad/Autobalanced_Photodetector/LIB_TMUX6136PWR/
+/kicad/Autobalanced_Photodetector/LIB_CK1051/
+/kicad/Autobalanced_Photodetector/LIB_OPA659IDRBT/
+/kicad/Autobalanced_Photodetector/LIB_9012-12-10/
+.history/
