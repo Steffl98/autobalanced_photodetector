@@ -1089,6 +1089,12 @@
 		(uuid "7d4a8a10-1ae2-4998-bd7d-b20a62012d36")
 	)
 	(junction
+		(at 146.05 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa86c67-b23f-4ae1-a045-cd975f2aafc8")
+	)
+	(junction
 		(at 195.58 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1153,6 +1159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b2c8b3-4fcc-4fc0-97e5-a7d21572a685")
+	)
+	(junction
+		(at 166.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8fcb05-5556-490d-ad17-26ced1f237f3")
 	)
 	(wire
 		(pts
@@ -1283,6 +1295,16 @@
 			(type default)
 		)
 		(uuid "1b9872fb-b543-485a-83d4-c77cd67b709a")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fba325c-5c35-47c0-a060-173bdc665632")
 	)
 	(wire
 		(pts
@@ -1486,6 +1508,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 104.14) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758b08c0-27b4-4f7a-b8bb-91a3966f027e")
+	)
+	(wire
+		(pts
 			(xy 105.41 26.67) (xy 105.41 27.94)
 		)
 		(stroke
@@ -1516,6 +1548,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 104.14) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823c4661-2a76-4a88-9171-66d876297896")
+	)
+	(wire
+		(pts
 			(xy 119.38 80.01) (xy 119.38 85.09)
 		)
 		(stroke
@@ -1526,6 +1568,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8792da70-0563-43d4-8716-6f7d75709bc9")
+	)
+	(wire
+		(pts
 			(xy 214.63 77.47) (xy 214.63 67.31)
 		)
 		(stroke
@@ -1533,6 +1585,16 @@
 			(type default)
 		)
 		(uuid "8a69e1bd-1e64-493a-9754-727fa0674b7b")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b05cd18-00ff-4f44-9d56-385a8a321d67")
 	)
 	(wire
 		(pts
@@ -1583,6 +1645,16 @@
 			(type default)
 		)
 		(uuid "9ca3497b-8db3-45e9-aa12-c11aa96cb9f2")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db059c9-68d2-42dd-9c86-17b0fbd6cc46")
 	)
 	(wire
 		(pts
@@ -1876,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 144.78 96.52)
+			(xy 147.32 96.52) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2057,6 +2129,86 @@
 			(justify right)
 		)
 		(uuid "ff1070ec-dfd4-4636-892e-54c816079bf6")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "194a1df5-45b3-4269-b0cf-eef916272a3c")
+		(property "Reference" "R50"
+			(at 151.13 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 151.13 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 151.13 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eabbeed2-14b1-4c37-b105-f52d13f37dd4")
+		)
+		(pin "1"
+			(uuid "85f1da9e-5b6f-49f4-9040-f8f97d777825")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2414,6 +2566,86 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "3f5d6448-5e0a-4559-a0fa-e3803c659a11")
+		(property "Reference" "C33"
+			(at 161.29 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 161.29 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 165.1 103.1748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7293308-909d-40b7-ad76-22bc96ff4b55")
+		)
+		(pin "2"
+			(uuid "4a168df5-71de-47a1-a137-773e5f132c12")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
+					(reference "C33")
 					(unit 1)
 				)
 			)

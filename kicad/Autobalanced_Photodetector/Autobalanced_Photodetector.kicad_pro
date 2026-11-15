@@ -635,7 +635,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -674,7 +674,7 @@
         "uuid": "2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9"
       }
     ],
-    "used_designators": "C28,C_Clamp1,C_SL1,D8,D109-110,K1-2,R34,R407,R_Clamp1,R_Filt1,R_SL1,S1,SW6,U6,U8-9",
+    "used_designators": "C17-21,C28,C33,C_Clamp1,C_SL1,D8,D109-110,K1-2,R30-32,R34,R50,R407,R_Clamp1,R_Filt1,R_SL1,S1,SW6,T1,U6,U8-9",
     "variants": []
   },
   "sheets": [
