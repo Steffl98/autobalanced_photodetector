@@ -1441,6 +1441,12 @@
 		(uuid "be2d3d0f-592e-41ae-ab7a-659577cd83bf")
 	)
 	(junction
+		(at 35.56 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6994495-4e54-4fa4-83e9-e68196a7e2b5")
+	)
+	(junction
 		(at 114.3 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2014,6 +2020,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 95.25) (xy 35.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db3fb75-4454-4808-802c-6255f699817f")
+	)
+	(wire
+		(pts
 			(xy 45.72 121.92) (xy 69.85 121.92)
 		)
 		(stroke
@@ -2021,6 +2037,16 @@
 			(type default)
 		)
 		(uuid "8f2b8d37-0951-4e59-a84b-d15bc363f599")
+	)
+	(wire
+		(pts
+			(xy 35.56 85.09) (xy 35.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c41c8b-a0f0-4866-acf0-405ac70069bd")
 	)
 	(wire
 		(pts
@@ -2041,6 +2067,16 @@
 			(type default)
 		)
 		(uuid "97f82fd3-b478-46bc-8f84-693df40f952c")
+	)
+	(wire
+		(pts
+			(xy 35.56 97.79) (xy 17.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b221c55-5d91-4a69-bbf5-5b2dd1f00933")
 	)
 	(wire
 		(pts
@@ -2214,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 97.79) (xy 17.78 97.79)
+			(xy 53.34 97.79) (xy 35.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4366,6 +4402,88 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/8217920b-28da-4932-a43e-d0f9a2380639"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bb247a32-d91c-40dc-a0cc-7287a375cee5")
+		(property "Reference" "C36"
+			(at 39.37 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 39.37 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 34.5948 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b52901a0-7dbe-48b4-9fff-68f22a39a270")
+		)
+		(pin "2"
+			(uuid "3acc9d80-f5af-4ab4-9f40-62f840b407da")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/8217920b-28da-4932-a43e-d0f9a2380639"
+					(reference "C36")
 					(unit 1)
 				)
 			)

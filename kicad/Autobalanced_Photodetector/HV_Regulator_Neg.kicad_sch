@@ -1405,6 +1405,12 @@
 		(uuid "bcd671e0-c7ab-439f-921c-8162d68a5f9c")
 	)
 	(junction
+		(at 87.63 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd87e256-898a-4cf2-9403-d1fa62fef322")
+	)
+	(junction
 		(at 214.63 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1551,6 +1557,16 @@
 			(type default)
 		)
 		(uuid "13b8af21-71ab-4ec7-9bed-aa93fbcee33a")
+	)
+	(wire
+		(pts
+			(xy 87.63 68.58) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196077f1-d791-4f50-8645-e7894fda10bd")
 	)
 	(wire
 		(pts
@@ -2074,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 105.41 71.12)
+			(xy 69.85 71.12) (xy 87.63 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2111,6 +2127,16 @@
 			(type default)
 		)
 		(uuid "d62e2019-3e29-4d04-84e7-568d7ac9f956")
+	)
+	(wire
+		(pts
+			(xy 87.63 71.12) (xy 105.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c34dd7-e9ee-4342-9eb3-9f66adcb8f60")
 	)
 	(wire
 		(pts
@@ -2181,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "e74e6b01-9922-47b9-a534-37e9ba959048")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 87.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77cf40a-70ca-4e98-88ac-0f64dee0ac64")
 	)
 	(wire
 		(pts
@@ -2358,6 +2394,88 @@
 			(justify left)
 		)
 		(uuid "2bc1e9bb-6d48-403e-9f3f-e08cbf2b6e3f")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.63 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "0c4f7119-ca34-4c61-99de-5ec7c29cd965")
+		(property "Reference" "C37"
+			(at 91.44 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 91.44 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 86.6648 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b4a6428-7908-489b-acc0-5db4dfb89a54")
+		)
+		(pin "2"
+			(uuid "d67f5764-85ee-42d3-83ce-4895df0f314c")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
