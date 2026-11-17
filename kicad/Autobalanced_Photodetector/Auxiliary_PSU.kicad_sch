@@ -2958,194 +2958,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDS"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -3170,7 +2983,7 @@
 					)
 				)
 			)
-			(property "Value" "GNDS"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3202,7 +3015,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3224,7 +3037,7 @@
 					)
 				)
 			)
-			(symbol "GNDS_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -3238,7 +3051,7 @@
 					)
 				)
 			)
-			(symbol "GNDS_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -3406,10 +3219,28 @@
 		(uuid "0434798b-9e60-4289-8246-91494c73ab49")
 	)
 	(junction
+		(at 196.85 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be7e2c7-1041-465d-988e-53ea8e6aaa42")
+	)
+	(junction
 		(at 149.86 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d2f02a8-cc41-4be7-9c17-051bd5b65695")
+	)
+	(junction
+		(at 264.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f581455-534c-470e-8d41-a2e5896716b4")
+	)
+	(junction
+		(at 242.57 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fba6a0d-e5d5-478b-95e4-106552f5f30e")
 	)
 	(junction
 		(at 208.28 22.86)
@@ -3428,6 +3259,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1760bf3e-3782-459b-8604-8aa678063fa3")
+	)
+	(junction
+		(at 196.85 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca79c30-7bef-452d-9e30-8b307753ec11")
 	)
 	(junction
 		(at 166.37 78.74)
@@ -3482,18 +3319,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e4445f3-5455-4b49-bbc9-2df40cbc134c")
-	)
-	(junction
-		(at 196.85 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3142f614-25bb-48c1-a98a-1b91499380d2")
-	)
-	(junction
-		(at 264.16 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33342c00-ef03-4b61-a336-81b1f8d0b228")
 	)
 	(junction
 		(at 151.13 128.27)
@@ -3580,6 +3405,12 @@
 		(uuid "675086eb-1b5c-4557-ba10-d5f750b90b66")
 	)
 	(junction
+		(at 196.85 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6abced91-0b09-4a61-8cb2-9f5220f00b59")
+	)
+	(junction
 		(at 132.08 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3608,12 +3439,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1b862d-ecfa-4e00-a2c3-bce13cc04432")
-	)
-	(junction
-		(at 242.57 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c27a9d4-a484-4b04-ac19-fcef5b1d419e")
 	)
 	(junction
 		(at 132.08 148.59)
@@ -3646,22 +3471,10 @@
 		(uuid "866e2049-de89-4be7-9427-ab5a481b173b")
 	)
 	(junction
-		(at 196.85 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "873b09f7-76b2-4ebc-b6d2-001c5f68346a")
-	)
-	(junction
 		(at 38.1 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c2a595-6c8d-4b11-9ebc-a5b1f9f3f203")
-	)
-	(junction
-		(at 132.08 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fc4d0a4-4cb5-4c54-99b0-e406246e8c78")
 	)
 	(junction
 		(at 52.07 151.13)
@@ -3754,22 +3567,10 @@
 		(uuid "b08ba50f-fb56-42c2-8e92-1dc731cb5d64")
 	)
 	(junction
-		(at 196.85 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1f91f10-071c-42cb-aae8-367a407b821b")
-	)
-	(junction
 		(at 264.16 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5df9789-7e5b-483a-81fe-205a07beeed7")
-	)
-	(junction
-		(at 264.16 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba9c10e3-9f38-4248-9780-d537f6efa89d")
 	)
 	(junction
 		(at 200.66 152.4)
@@ -3832,16 +3633,16 @@
 		(uuid "d349b5ab-5cfe-459f-b9e9-2ab2441128e9")
 	)
 	(junction
-		(at 242.57 134.62)
+		(at 264.16 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3575041-d79f-4499-979b-5eb1acc5aa2b")
+		(uuid "d9265b67-18ae-422d-b8a5-829150e06d25")
 	)
 	(junction
-		(at 194.31 114.3)
+		(at 132.08 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d60fc182-4081-4326-ac18-4ddf1d32cbf5")
+		(uuid "e2813b33-0ae2-4ac8-b3be-904ca6f18340")
 	)
 	(junction
 		(at 62.23 38.1)
@@ -3862,6 +3663,12 @@
 		(uuid "e63050b6-28d5-4e61-a93c-5ed2d7519fb7")
 	)
 	(junction
+		(at 242.57 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8c627b5-066a-43e1-b2fa-3e5f377d19e6")
+	)
+	(junction
 		(at 27.94 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3878,6 +3685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec31dc76-d15d-46f4-b7cf-f1b32abc78f4")
+	)
+	(junction
+		(at 194.31 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f21236a4-1aaa-484d-8b23-4b14acab8e29")
 	)
 	(junction
 		(at 200.66 78.74)
@@ -4367,16 +4180,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 54.61) (xy 264.16 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2042f31e-94d9-4f36-9e19-d076fc654dbd")
-	)
-	(wire
-		(pts
 			(xy 210.82 69.85) (xy 210.82 71.12)
 		)
 		(stroke
@@ -4387,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 114.3) (xy 198.12 114.3)
+			(xy 191.77 114.3) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4537,16 +4340,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 130.81) (xy 264.16 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f837e70-04a3-45c7-918f-f7ba3093ccf8")
-	)
-	(wire
-		(pts
 			(xy 135.89 22.86) (xy 135.89 31.75)
 		)
 		(stroke
@@ -4574,16 +4367,6 @@
 			(type default)
 		)
 		(uuid "311772f9-6d2e-4bda-8a0d-933fdfebce96")
-	)
-	(wire
-		(pts
-			(xy 191.77 114.3) (xy 194.31 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3255fee6-9f0b-4bfc-b874-805d353a9ba2")
 	)
 	(wire
 		(pts
@@ -5377,6 +5160,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 137.16) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da62df2-57c1-48d8-8158-deb1ca86e98e")
+	)
+	(wire
+		(pts
 			(xy 93.98 63.5) (xy 93.98 66.04)
 		)
 		(stroke
@@ -5747,7 +5540,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 63.5) (xy 200.66 63.5)
+			(xy 194.31 63.5) (xy 196.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5764,6 +5557,16 @@
 			(type default)
 		)
 		(uuid "8ca10c34-14c7-4788-895e-217fd8b87c81")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 199.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd628cf-2983-489a-b582-0cf000f01c76")
 	)
 	(wire
 		(pts
@@ -5794,6 +5597,16 @@
 			(type default)
 		)
 		(uuid "8dfc15b7-29e4-4f24-9d70-054b1dcf4eac")
+	)
+	(wire
+		(pts
+			(xy 196.85 63.5) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5754a3-9004-4339-bd20-dee657c1c773")
 	)
 	(wire
 		(pts
@@ -5957,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 39.37) (xy 199.39 39.37)
+			(xy 193.04 39.37) (xy 196.85 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6014,6 +5827,16 @@
 			(type default)
 		)
 		(uuid "a3391274-0d24-4f67-b334-523a54c1949b")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a390376f-c812-4e7b-b3b7-a386ed3575d3")
 	)
 	(wire
 		(pts
@@ -6157,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.16) (xy 200.66 137.16)
+			(xy 194.31 137.16) (xy 196.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6177,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 12.7 175.26) (xy 12.7 167.64)
+			(xy 12.7 167.64) (xy 12.7 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6264,16 +6087,6 @@
 			(type default)
 		)
 		(uuid "bb250f14-029e-4200-937e-43fc448f36c9")
-	)
-	(wire
-		(pts
-			(xy 194.31 63.5) (xy 196.85 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbce72c9-2682-4b3f-b923-e81afc71efb2")
 	)
 	(wire
 		(pts
@@ -6527,16 +6340,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 137.16) (xy 196.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db73cefe-6d7b-4a66-b707-82f20a0d0432")
-	)
-	(wire
-		(pts
 			(xy 194.31 66.04) (xy 194.31 63.5)
 		)
 		(stroke
@@ -6714,16 +6517,6 @@
 			(type default)
 		)
 		(uuid "f09e79f2-2b95-44a5-833a-7695e16ebe70")
-	)
-	(wire
-		(pts
-			(xy 193.04 39.37) (xy 196.85 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a1f98d-7da7-45e1-adaa-19735e5a89a0")
 	)
 	(wire
 		(pts
@@ -6957,28 +6750,6 @@
 		(uuid "1576f973-4b46-42ae-8687-3e5cc4f090ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.54 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "AGND"
-		(shape bidirectional)
-		(at 71.12 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16a5878d-48c0-4a88-9e88-1c92c926cdca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7231,29 +7002,6 @@
 			)
 		)
 	)
-	(global_label "VFLY_12V"
-		(shape bidirectional)
-		(at 12.7 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "538e0ee7-ef78-4639-bf71-b1ec77a241c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.7 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "LDOIN_N12V"
 		(shape passive)
 		(at 116.84 172.72 0)
@@ -7310,29 +7058,6 @@
 		(uuid "5773fa1c-adee-404c-8c6a-66a6864e9950")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "PGND"
-		(shape bidirectional)
-		(at 12.7 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5939a5aa-8b0e-45a1-813f-a8da347c332d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,30 +7329,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "AGND"
-		(shape output)
-		(at 71.12 186.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a12f6769-af4a-4d2a-b435-387ecca27b91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -8146,6 +7847,84 @@
 		(uuid "b031c6f5-d7bc-4063-8271-9752d2437243")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0067ad1f-ae9c-44d6-adea-c922aff4d4af")
+		(property "Reference" "#PWR018"
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a192cff6-13c2-40b3-a63d-f16d56cd8a60")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 149.86 63.5 270)
 		(unit 1)
@@ -8333,8 +8112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 177.8 107.95 0)
+		(lib_id "power:GND")
+		(at 116.84 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8343,9 +8122,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a99350b-782a-407a-bc6d-e50c519455c6")
-		(property "Reference" "#PWR1011"
-			(at 177.8 114.3 0)
+		(uuid "05bfa61c-b995-4b41-bdf6-cb90605ac071")
+		(property "Reference" "#PWR025"
+			(at 116.84 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,8 +8134,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 177.8 113.03 0)
+		(property "Value" "GND"
+			(at 116.84 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8366,7 +8145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 107.95 0)
+			(at 116.84 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,7 +8156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 107.95 0)
+			(at 116.84 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,8 +8166,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 177.8 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8399,12 +8178,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa34bd44-e9ef-49c6-b7ed-d14a6c5c4bfe")
+			(uuid "2db385c1-0d34-4d3e-baef-0596aee21c9f")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1011")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8498,84 +8277,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "R116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 177.8 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bfd7ecd-7f37-43ab-94fc-d051b7f04bd9")
-		(property "Reference" "#PWR1010"
-			(at 177.8 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 177.8 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 177.8 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeee45d3-63c0-4c70-9135-30d37b2fef7f")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1010")
 					(unit 1)
 				)
 			)
@@ -8761,84 +8462,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "C128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 154.94 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e1bd66e-982b-4273-b4fb-8012e6fd28fa")
-		(property "Reference" "#PWR1049"
-			(at 154.94 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 154.94 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 154.94 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2450ed2-0a68-48fa-b943-02174e5ed1ac")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1049")
 					(unit 1)
 				)
 			)
@@ -9255,318 +8878,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 264.16 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "111e8f64-9bb1-44ee-846f-6d532691ac1b")
-		(property "Reference" "#PWR1035"
-			(at 264.16 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 264.16 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 264.16 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c55c3dd-cbb5-453c-891d-70378a4379ce")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 210.82 146.05 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "117ef882-2f75-4715-a8bc-166b74ba6a01")
-		(property "Reference" "#PWR1030"
-			(at 210.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 210.82 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 210.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ad379f4-8e5b-4c79-a6df-80ca1124af6f")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 229.87 58.42 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1211490f-a517-4652-99ff-feb9b7ec443d")
-		(property "Reference" "#PWR1020"
-			(at 229.87 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 229.87 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 229.87 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1f27db0-71df-4007-bb6a-af2862c7d0d8")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 104.14 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16625541-c2b3-4135-8f74-979a5fa932fd")
-		(property "Reference" "#PWR1007"
-			(at 104.14 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 104.013 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 104.14 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04644f41-3559-4d14-9776-c632c85723d4")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1007")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 264.16 138.43 0)
 		(mirror x)
@@ -9655,84 +8966,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "C127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 166.37 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ab8b9f4-ea24-488f-a646-79cb6c651e99")
-		(property "Reference" "#PWR1013"
-			(at 166.37 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 166.37 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 166.37 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0891b756-3434-4493-9501-f28243ff91dc")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1013")
 					(unit 1)
 				)
 			)
@@ -9909,7 +9142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
+		(lib_id "power:GND")
 		(at 129.54 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -9919,8 +9152,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22804429-5418-4364-96df-c2ea02a61329")
-		(property "Reference" "#PWR1047"
+		(uuid "20d44b87-6368-40e8-bb42-1a2243c5b56d")
+		(property "Reference" "#PWR081"
 			(at 129.54 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9931,7 +9164,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 129.54 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9963,7 +9196,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 129.54 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9975,12 +9208,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9312de4-c294-4fe5-89a6-4ea4606083b1")
+			(uuid "dea02c06-32ea-4670-872c-ff614a00922b")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1047")
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "215e5746-3437-49ed-8e8a-878770278988")
+		(property "Reference" "#PWR048"
+			(at 264.16 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cab39c7-bb78-4fb4-80a6-2f694b47a7f0")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10782,8 +10093,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 196.85 63.5 180)
+		(lib_id "power:GND")
+		(at 264.16 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10792,9 +10103,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "382c27c0-5269-4703-aff5-4e9e48f4df4e")
-		(property "Reference" "#PWR1042"
-			(at 196.85 57.15 0)
+		(uuid "3228afc5-84c9-4eef-9f27-4583287118ad")
+		(property "Reference" "#PWR035"
+			(at 264.16 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,8 +10115,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 196.85 58.42 0)
+		(property "Value" "GND"
+			(at 264.16 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10815,7 +10126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 63.5 0)
+			(at 264.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +10137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 63.5 0)
+			(at 264.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,8 +10147,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 196.85 63.5 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10848,12 +10159,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "08bab9cc-4ec4-493b-805f-47eb40a456e4")
+			(uuid "afbb7b50-a862-47d1-89cd-c7e6a187f2af")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1042")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32da1424-d887-49e5-b12e-80d6633dc535")
+		(property "Reference" "#PWR053"
+			(at 177.8 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7ecd6a6-325b-4500-88ce-ef7a829755ed")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37795c15-6c1e-430a-a102-38b33d573ab3")
+		(property "Reference" "#PWR043"
+			(at 177.8 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa4194a4-50cf-4564-bafe-5b64b3f130f5")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11876,6 +11343,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43022ad3-7c2a-4dcf-ab15-6d615d342309")
+		(property "Reference" "#PWR084"
+			(at 167.64 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "960379a6-be3b-4b5a-b618-cdf8bfaa5888")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 264.16 62.23 0)
 		(mirror x)
@@ -11970,84 +11515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 194.31 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43de11af-12d6-4279-88d0-1d6817affde1")
-		(property "Reference" "#PWR1043"
-			(at 194.31 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 194.31 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "beebe3a0-79ad-485c-ac0d-d0604fcd0185")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 39.37 49.53 0)
 		(unit 1)
@@ -12134,84 +11601,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 242.57 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47a3b42a-617c-477b-b4d2-7027007bdd8f")
-		(property "Reference" "#PWR1017"
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 242.57 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 242.57 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6bf3ece-a7b9-4d5c-b67e-a77bed8004aa")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1017")
 					(unit 1)
 				)
 			)
@@ -12558,8 +11947,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 104.14 191.77 0)
+		(lib_id "power:GND")
+		(at 196.85 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12568,9 +11957,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fc8a102-bc9e-4f1c-ac9c-e11d43b7d032")
-		(property "Reference" "#PWR1045"
-			(at 104.14 196.85 0)
+		(uuid "4cb0d23f-af18-490c-bc99-31f7f3a285c6")
+		(property "Reference" "#PWR044"
+			(at 196.85 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12580,8 +11969,8 @@
 				)
 			)
 		)
-		(property "Value" "PGND"
-			(at 104.013 195.58 0)
+		(property "Value" "GND"
+			(at 196.85 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12591,7 +11980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 193.04 0)
+			(at 196.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12602,7 +11991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 193.04 0)
+			(at 196.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,7 +12001,163 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32fadff2-bbbe-4824-8bef-677561555a3a")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "525d2a7d-0563-444e-8e6b-8b2f3bbe0032")
+		(property "Reference" "#PWR022"
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1317057f-0d3a-4cb1-ab17-087d17a1ea76")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a8fb14-3261-4d9d-9169-4c144ff266ec")
+		(property "Reference" "#PWR024"
+			(at 104.14 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -12624,90 +12169,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b0f930f-b8ca-419b-ac6b-90b8af759a39")
+			(uuid "b9688d4c-9456-4176-a972-b3629a20775f")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 229.87 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "550b8304-ec89-4045-aafc-af1df2c731c6")
-		(property "Reference" "#PWR1019"
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 229.87 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 229.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2f73676-65d1-47ad-8700-263de54a1b49")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13004,8 +12471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 242.57 134.62 180)
+		(lib_id "power:GND")
+		(at 210.82 146.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13014,9 +12481,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5de24ab6-5bc3-45e8-a438-14a456d2b8b2")
-		(property "Reference" "#PWR1034"
-			(at 242.57 128.27 0)
+		(uuid "5a4c3529-d6bc-48f4-bd20-ca394d7705fa")
+		(property "Reference" "#PWR052"
+			(at 210.82 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13026,8 +12493,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 242.57 129.54 0)
+		(property "Value" "GND"
+			(at 210.82 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13037,7 +12504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 134.62 0)
+			(at 210.82 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13048,7 +12515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 134.62 0)
+			(at 210.82 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13058,8 +12525,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 242.57 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13070,12 +12537,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b5b09b4-39d3-4e87-b5b9-2efbc56c4af4")
+			(uuid "0043adf5-ae97-4dcb-820c-b6b23cc6b8e6")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1034")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13174,8 +12641,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 166.37 146.05 180)
+		(lib_id "power:GND")
+		(at 242.57 134.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13184,9 +12651,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "605a35e8-1615-445c-a1bd-e44f3b9f20ee")
-		(property "Reference" "#PWR1026"
-			(at 166.37 139.7 0)
+		(uuid "5f2126a2-32ae-43a9-9f89-d197593473aa")
+		(property "Reference" "#PWR049"
+			(at 242.57 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13196,8 +12663,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 166.37 140.97 0)
+		(property "Value" "GND"
+			(at 242.57 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13207,7 +12674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 146.05 0)
+			(at 242.57 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13218,7 +12685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 146.05 0)
+			(at 242.57 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,8 +12695,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 166.37 146.05 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13240,12 +12707,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "c704da36-9837-4135-b988-cc6d904b3754")
+			(uuid "9c2884d2-342e-4080-a224-47dce959f7c4")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1026")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62438e71-f1eb-4a7f-aaf8-170164e0ee17")
+		(property "Reference" "#PWR033"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37b99acf-f7a7-4ab6-bc22-fd80ce4cf0b5")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13441,6 +12986,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63a83e19-950f-4ee3-b43f-dcd02d724aa2")
+		(property "Reference" "#PWR041"
+			(at 166.37 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ba364f4-d53c-4ea8-b8df-06f975d4868c")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 191.77 0)
 		(unit 1)
@@ -13541,162 +13164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 132.08 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66599ac6-b9b1-4a53-a101-034b197cb78e")
-		(property "Reference" "#PWR1038"
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 132.08 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 132.08 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba95c479-d19c-4071-8964-f882057431ac")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 264.16 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6697bcfb-95f0-4d59-99d8-23d20169b6ab")
-		(property "Reference" "#PWR1021"
-			(at 264.16 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 264.16 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 264.16 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "582d935e-df0b-4d0a-9b90-8bb1ccab2a8c")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 166.37 102.87 0)
 		(unit 1)
@@ -13784,84 +13251,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 104.14 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6961b567-ff96-48dc-ab26-8473974e7372")
-		(property "Reference" "#PWR1037"
-			(at 104.14 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 104.013 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 104.14 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d528876-352d-4772-b213-65bcca9ef1f1")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1037")
 					(unit 1)
 				)
 			)
@@ -14084,6 +13473,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dbe7edc-84e3-4e52-b3cb-75e011e9e6cf")
+		(property "Reference" "#PWR055"
+			(at 166.37 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "877caa4c-8fde-436e-ab1a-e9d32af0c4a9")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 191.77 99.06 90)
 		(unit 1)
@@ -14169,84 +13636,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "L104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 116.84 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7177c7a8-5d6b-4d93-9bf3-07ba74d3efe6")
-		(property "Reference" "#PWR1046"
-			(at 116.84 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 116.713 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 116.84 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f38c34c-0815-47c5-92c6-8a61ffb39226")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1046")
 					(unit 1)
 				)
 			)
@@ -14340,6 +13729,84 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a1f486-26df-446b-8cf8-eec7b5f27c0d")
+		(property "Reference" "#PWR042"
+			(at 166.37 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a260b93-6257-4bc4-8ade-093b79f3cdf7")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14446,8 +13913,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 196.85 137.16 180)
+		(lib_id "power:GND")
+		(at 208.28 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14456,9 +13923,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "795df319-56fc-436d-b0dc-b489016bf9b2")
-		(property "Reference" "#PWR1044"
-			(at 196.85 130.81 0)
+		(uuid "79dfddaa-3194-49b8-a7db-de326173fdee")
+		(property "Reference" "#PWR032"
+			(at 208.28 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14468,8 +13935,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 196.85 132.08 0)
+		(property "Value" "GND"
+			(at 208.28 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14479,7 +13946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 137.16 0)
+			(at 208.28 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14490,7 +13957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 137.16 0)
+			(at 208.28 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14500,8 +13967,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 196.85 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14512,12 +13979,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a421b7ca-2134-4f14-a608-1fbb8857030d")
+			(uuid "ad2ce974-3426-4750-a942-edd34051f2c0")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1044")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14610,6 +14077,84 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81725f11-1843-481d-a184-98c9587fbbbe")
+		(property "Reference" "#PWR023"
+			(at 104.14 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0d971de-f270-4bd3-b7d6-63c94de09dad")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14985,6 +14530,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 229.87 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8917cf71-189e-43ac-a999-0f7607fca62b")
+		(property "Reference" "#PWR046"
+			(at 229.87 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "748b8fb2-f89f-46eb-a57f-3ed02965d284")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 167.64 191.77 0)
 		(unit 1)
@@ -15079,84 +14702,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "TP122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 177.8 146.05 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89c1bc6d-fc13-46b5-9a83-a4088d502849")
-		(property "Reference" "#PWR1012"
-			(at 177.8 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 177.8 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 177.8 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21030504-a28a-4fbc-b534-760bb9f3a96f")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1012")
 					(unit 1)
 				)
 			)
@@ -15412,84 +14957,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 166.37 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "929aceca-412c-4f2d-bd7d-1601c279bcc6")
-		(property "Reference" "#PWR1014"
-			(at 166.37 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 166.37 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 166.37 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f65bd2c-a402-4a79-bc5f-7cb616612f0a")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 129.54 77.47 0)
 		(unit 1)
@@ -15568,8 +15035,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 132.08 77.47 0)
+		(lib_id "power:GND")
+		(at 142.24 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15578,9 +15045,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "940d9616-b022-457e-9d9e-fb8e0fc242a3")
-		(property "Reference" "#PWR1008"
-			(at 132.08 83.82 0)
+		(uuid "948e544b-5b68-4266-ab51-82081be08708")
+		(property "Reference" "#PWR082"
+			(at 142.24 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15590,8 +15057,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 132.08 82.55 0)
+		(property "Value" "GND"
+			(at 142.24 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15601,7 +15068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 77.47 0)
+			(at 142.24 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15612,7 +15079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 77.47 0)
+			(at 142.24 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15622,8 +15089,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 132.08 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15634,12 +15101,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "05aa7171-f6a3-4689-b080-f75df951e278")
+			(uuid "5ae04df6-695e-4e9d-9f62-1f9c4fbb5f8e")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1008")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -15732,6 +15199,84 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0f7783-e1e5-48bf-bb88-c93328df1cc8")
+		(property "Reference" "#PWR036"
+			(at 242.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0aeed6b9-ee98-4eea-992e-dcf494630ee3")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15831,8 +15376,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 208.28 36.83 0)
+		(lib_id "power:GND")
+		(at 229.87 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15841,9 +15386,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c426639-e762-481f-98c3-f4a02b8000e6")
-		(property "Reference" "#PWR1024"
-			(at 208.28 43.18 0)
+		(uuid "9cfee242-d193-4996-87fe-98fcc75572ec")
+		(property "Reference" "#PWR031"
+			(at 229.87 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15853,8 +15398,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 208.28 41.91 0)
+		(property "Value" "GND"
+			(at 229.87 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15864,7 +15409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 36.83 0)
+			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15875,7 +15420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 36.83 0)
+			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15885,8 +15430,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 208.28 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15897,12 +15442,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "17a8b96e-5d81-41c8-85fd-e7f481edbbc9")
+			(uuid "20b28706-bedf-466c-ac4d-6beff3093b30")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16073,6 +15618,84 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "TP118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f6f474c-d4c8-4c22-9612-815ff0784bb9")
+		(property "Reference" "#PWR027"
+			(at 71.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "076003b4-9fa3-477f-8c1e-1991ee9686cf")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16806,6 +16429,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 242.57 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abdbe2c1-282f-499d-a7b5-26a55e8aa492")
+		(property "Reference" "#PWR047"
+			(at 242.57 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d67ca434-24e0-421f-b68f-f52322b12dce")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 215.9 110.49 0)
 		(unit 1)
@@ -17162,6 +16863,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3981fc8-7706-4aab-bf67-7c26e701f4a3")
+		(property "Reference" "#PWR021"
+			(at 74.93 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5f79509-657a-4841-955a-2d6f8ef4b56a")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 116.84 185.42 0)
 		(unit 1)
@@ -17234,84 +17013,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "TP108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 76.2 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8c4fb89-74d7-4fb6-bfce-ded057b7b5c1")
-		(property "Reference" "#PWR1004"
-			(at 76.2 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 76.073 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 76.2 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ce2f605-c446-411e-998c-cd03f23d5571")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1004")
 					(unit 1)
 				)
 			)
@@ -17410,6 +17111,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad01635-83bd-400a-baa0-f43eb509428c")
+		(property "Reference" "#PWR039"
+			(at 196.85 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc6eaa2c-b112-4e81-a9ac-8b13d1f8fb1e")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 210.82 157.48 180)
 		(unit 1)
@@ -17482,84 +17261,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "#FLG1007")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 210.82 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc8b0cc7-dd60-4203-ab35-01705b30ebaf")
-		(property "Reference" "#PWR1023"
-			(at 210.82 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 210.82 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 210.82 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "904482fc-0dc8-43c8-b5db-2a48f7bfb132")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1023")
 					(unit 1)
 				)
 			)
@@ -17658,84 +17359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 166.37 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda756b2-8118-4a30-b149-3b081b978d56")
-		(property "Reference" "#PWR1025"
-			(at 166.37 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 166.37 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 166.37 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87cd7c0e-08bc-42d7-a361-c390101f42ac")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 104.14 172.72 0)
 		(unit 1)
@@ -17808,84 +17431,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "TP102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 167.64 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bed528fe-4dc8-44a0-b376-22ccad4e6f25")
-		(property "Reference" "#PWR1050"
-			(at 167.64 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 167.64 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 167.64 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5196fb8b-3e51-4667-9255-4fd7f3b60639")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1050")
 					(unit 1)
 				)
 			)
@@ -18185,7 +17730,85 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
+		(lib_id "power:GND")
+		(at 71.12 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2716d81-b53a-4398-8131-58b663f024fe")
+		(property "Reference" "#PWR026"
+			(at 71.12 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96b337f4-8802-4bcb-8a5b-d4566b79287b")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 242.57 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -18195,8 +17818,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2e57cb1-c6ac-4ec9-9e6f-083bfa08170f")
-		(property "Reference" "#PWR1033"
+		(uuid "c51fa19b-9690-47ff-826e-26f4b60f1d86")
+		(property "Reference" "#PWR030"
 			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18207,7 +17830,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 242.57 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18239,7 +17862,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 242.57 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18251,12 +17874,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90b3a5be-4f64-45a1-9a6c-7e2b7bb87c66")
+			(uuid "94893083-f83d-42b8-8647-e7c56496cce9")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1033")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18526,6 +18149,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 229.87 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9b2edf9-e7b0-44e3-afc7-dadb887c75ec")
+		(property "Reference" "#PWR050"
+			(at 229.87 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a0cfb6d-2c44-4833-845b-8f66ea4f81e6")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 12.7 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca26689e-73f4-421f-9aee-6c1fb121616d")
+		(property "Reference" "#PWR028"
+			(at 12.7 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 12.7 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 12.7 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.7 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 12.7 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b55df4ff-252b-4328-903e-9093974fbd68")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 264.16 105.41 0)
 		(unit 1)
@@ -18691,84 +18470,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "TP117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 177.8 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf2f545b-bec4-498d-9ff5-574cc35de89a")
-		(property "Reference" "#PWR1009"
-			(at 177.8 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 177.8 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 177.8 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29567f20-fb14-4414-84a1-6dfc960821fb")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1009")
 					(unit 1)
 				)
 			)
@@ -18959,6 +18660,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 264.16 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4e74317-d8a5-4d69-89f9-44b2cb7f4df0")
+		(property "Reference" "#PWR034"
+			(at 264.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "434d04b2-4cc6-40f0-b422-3c43aa3ed9e4")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d50b0e86-3dbb-4636-82ae-697c85a6f7b1")
+		(property "Reference" "#PWR038"
+			(at 208.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7431a5a-1197-4758-b9bd-fc7585fdc3cf")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 166.37 73.66 0)
 		(unit 1)
@@ -19130,8 +18987,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 142.24 191.77 0)
+		(lib_id "power:+12V")
+		(at 12.7 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19140,9 +18997,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7166f5f-4acd-4203-9d0f-fb5b3c6fa569")
-		(property "Reference" "#PWR1048"
-			(at 142.24 198.12 0)
+		(uuid "d62bed5a-6bdf-48bb-bffe-35f78070c7c7")
+		(property "Reference" "#PWR01040"
+			(at 12.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19152,8 +19009,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 142.24 196.85 0)
+		(property "Value" "VFLY_12V"
+			(at 12.7 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19163,7 +19020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 191.77 0)
+			(at 12.7 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19174,7 +19031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 191.77 0)
+			(at 12.7 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19184,8 +19041,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 142.24 191.77 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 12.7 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19196,12 +19053,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f311fa91-8fe4-472e-a9a3-4d0d82afa69e")
+			(uuid "db460229-f44e-4a93-9794-5e5c69d52dfd")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1048")
+					(reference "#PWR01040")
 					(unit 1)
 				)
 			)
@@ -19295,84 +19152,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 242.57 58.42 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9f056bd-fe30-43d8-bea9-5d1256cb7da5")
-		(property "Reference" "#PWR1018"
-			(at 242.57 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 242.57 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 242.57 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b287e63-0b64-45fe-8612-2627d9f01ebb")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1018")
 					(unit 1)
 				)
 			)
@@ -19720,6 +19499,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0159c9-bc02-4714-8bf5-9802dd4f7508")
+		(property "Reference" "#PWR054"
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87a49525-1786-4c1c-8359-b75f3a33f5b5")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 229.87 64.77 0)
 		(unit 1)
@@ -19940,6 +19797,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 177.8 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e36fb509-b809-437d-adb6-0439ca8c3451")
+		(property "Reference" "#PWR056"
+			(at 177.8 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ab2dc90-c5e7-41e1-8c50-251ea3d05389")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 33.02 175.26 0)
 		(unit 1)
@@ -20027,84 +19962,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "J102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 229.87 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6285c01-fc2f-4f1f-864a-0022e878fe53")
-		(property "Reference" "#PWR1032"
-			(at 229.87 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 229.87 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 229.87 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50aad5c7-7196-4b5d-9843-86b3826777e2")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1032")
 					(unit 1)
 				)
 			)
@@ -20297,8 +20154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 229.87 115.57 0)
+		(lib_id "power:GND")
+		(at 154.94 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20307,9 +20164,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ea533ea3-c5ca-4464-9aaf-e21f8cffdf10")
-		(property "Reference" "#PWR1031"
-			(at 229.87 121.92 0)
+		(uuid "e9901fdc-b3c6-4161-a326-9ff7049caca6")
+		(property "Reference" "#PWR083"
+			(at 154.94 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20319,8 +20176,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 229.87 120.65 0)
+		(property "Value" "GND"
+			(at 154.94 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20330,7 +20187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 115.57 0)
+			(at 154.94 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20341,7 +20198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 115.57 0)
+			(at 154.94 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20351,8 +20208,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 229.87 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20363,20 +20220,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "80079898-c101-48c9-b594-7bc245a5c78f")
+			(uuid "5599b4ed-9194-4666-a64f-f2b4cda68406")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1031")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 208.28 113.03 0)
+		(lib_id "power:GND")
+		(at 229.87 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20385,9 +20242,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ea5dba23-eedd-45e1-971b-7c99446164b1")
-		(property "Reference" "#PWR1029"
-			(at 208.28 119.38 0)
+		(uuid "ea0056e4-8339-481c-b103-a314bde0f945")
+		(property "Reference" "#PWR037"
+			(at 229.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20397,8 +20254,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 208.28 118.11 0)
+		(property "Value" "GND"
+			(at 229.87 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20408,7 +20265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 113.03 0)
+			(at 229.87 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20419,7 +20276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 113.03 0)
+			(at 229.87 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20429,8 +20286,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 208.28 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20441,12 +20298,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c66cd21-3484-4082-9656-9753264df7df")
+			(uuid "19c05bee-ad7c-4efb-9adf-16f09fce2c2b")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20531,8 +20388,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 264.16 130.81 180)
+		(lib_id "power:GND")
+		(at 177.8 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20541,9 +20398,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec5c44b7-2640-4b14-8826-26faac17b376")
-		(property "Reference" "#PWR1036"
-			(at 264.16 124.46 0)
+		(uuid "ee6dae83-a9cc-4aaa-9e1c-a4684aeb6f79")
+		(property "Reference" "#PWR040"
+			(at 177.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20553,8 +20410,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 264.16 125.73 0)
+		(property "Value" "GND"
+			(at 177.8 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20564,7 +20421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 130.81 0)
+			(at 177.8 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20575,7 +20432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 130.81 0)
+			(at 177.8 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20585,86 +20442,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 264.16 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43a88364-63fc-4924-92d7-65f620d0d455")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 196.85 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edc917bc-c3aa-472e-a165-0909444ffc6a")
-		(property "Reference" "#PWR1041"
-			(at 196.85 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 196.85 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 196.85 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20675,12 +20454,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "57092068-110c-45e1-88a7-2b8686539a67")
+			(uuid "2f78e6ef-293a-425e-b4e4-e4af574648cc")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20780,8 +20559,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 74.93 151.13 0)
+		(lib_id "power:GND")
+		(at 132.08 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20790,9 +20569,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1e42e94-bdca-4a49-866b-069e7bd42982")
-		(property "Reference" "#PWR1040"
-			(at 74.93 156.21 0)
+		(uuid "f3ac3238-d4d6-4e1d-83e5-dd1a397fc897")
+		(property "Reference" "#PWR020"
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20802,8 +20581,8 @@
 				)
 			)
 		)
-		(property "Value" "PGND"
-			(at 74.803 154.94 0)
+		(property "Value" "GND"
+			(at 132.08 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20813,7 +20592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 152.4 0)
+			(at 132.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20824,7 +20603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 152.4 0)
+			(at 132.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20834,8 +20613,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 74.93 151.13 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20846,12 +20625,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "474e1b5c-6b6b-467e-917e-3f1cf175cf0a")
+			(uuid "ed2fd8c2-3cd4-4733-9914-4f49b186da9e")
 		)
 		(instances
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1040")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4464853-9b4a-4003-b86f-3bbbc6bfa4a2")
+		(property "Reference" "#PWR019"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a82feb3-9be0-4c33-a5f1-ceeb2a424bf4")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f603ffaf-6eb0-46d8-a2ef-b282e73026a6")
+		(property "Reference" "#PWR045"
+			(at 210.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5e56005-16e6-4505-a837-6c79bfbea7c8")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -20944,84 +20879,6 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "C138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 264.16 54.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa2ceb69-89ab-44da-84aa-ce5489f90dc7")
-		(property "Reference" "#PWR1022"
-			(at 264.16 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 264.16 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 264.16 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f394b72-0741-4e4b-a5e3-52bfeba64af3")
-		)
-		(instances
-			(project "Autobalanced_Photodetector"
-				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
-					(reference "#PWR1022")
 					(unit 1)
 				)
 			)
@@ -21285,6 +21142,162 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
 					(reference "C117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fedd71f6-84d2-4226-9c6d-8535ec68cf51")
+		(property "Reference" "#PWR029"
+			(at 264.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a8717e7-cea2-4b33-ac95-5c4d79c8c7d4")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 137.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4f0d0b-7ca7-4876-9d1b-3b01b068e0a9")
+		(property "Reference" "#PWR051"
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b488676-1a88-4f77-9c84-c81a501d9671")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/b45cc079-fdc2-44d5-b478-54598c3f31dc"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

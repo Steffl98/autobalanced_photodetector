@@ -1154,6 +1154,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "- 233 V nominal voltage"
+		(exclude_from_sim no)
+		(at 99.822 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f5e2422-6444-4b37-9ed1-ba2479174c4d")
+	)
+	(text "0 ... -200 V"
+		(exclude_from_sim no)
+		(at 239.776 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "766ca7dc-83aa-4faf-b1c2-a66caac74ca7")
 	)
 	(junction
 		(at 195.58 66.04)
@@ -2170,39 +2329,6 @@
 		)
 		(uuid "2bc1e9bb-6d48-403e-9f3f-e08cbf2b6e3f")
 	)
-	(hierarchical_label "REG_NEG_EN"
-		(shape input)
-		(at 30.48 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9dd28950-c72a-48db-abf4-ec5f9618ad2c")
-	)
-	(hierarchical_label "HV_BIAS_NEG"
-		(shape output)
-		(at 231.14 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6843602-8c17-404b-9673-7f7a0b94d486")
-	)
-	(hierarchical_label "HV_RAW_NEG"
-		(shape input)
-		(at 81.28 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff1070ec-dfd4-4636-892e-54c816079bf6")
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 151.13 104.14 90)
@@ -2369,6 +2495,84 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 81.28 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27227cc4-998d-4bba-99f7-8c17b86139ca")
+		(property "Reference" "#PWR075"
+			(at 81.28 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HV_RAW_NEG"
+			(at 81.28 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"HV_RAW_NEG\""
+			(at 81.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc7a2916-f114-4a9e-87a3-7f557a15eae7")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3559,6 +3763,84 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 231.14 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a62008-b530-4085-ad24-f337c4182be9")
+		(property "Reference" "#PWR074"
+			(at 231.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HV_BIAS_NEG"
+			(at 231.14 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"HV_BIAS_NEG\""
+			(at 231.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "547c84a4-bfb5-48e2-979f-0cb0a5418dba")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
