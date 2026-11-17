@@ -1435,6 +1435,12 @@
 		(uuid "eb6fb577-57a6-4b66-9663-1de01ce12b84")
 	)
 	(junction
+		(at 87.63 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f24de555-42ee-414d-964e-c775e2741e05")
+	)
+	(junction
 		(at 96.52 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1698,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 96.52 58.42)
+			(xy 95.25 58.42) (xy 96.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1755,16 +1761,6 @@
 			(type default)
 		)
 		(uuid "5f0fa374-18b2-4906-a525-111666746f85")
-	)
-	(wire
-		(pts
-			(xy 87.63 58.42) (xy 86.36 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6000cd94-192b-4b33-81f0-d84c21e523ca")
 	)
 	(wire
 		(pts
@@ -2098,6 +2094,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 52.07) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07d3ab8-b18d-4172-833d-c600939505a5")
+	)
+	(wire
+		(pts
 			(xy 227.33 50.8) (xy 214.63 50.8)
 		)
 		(stroke
@@ -2283,6 +2289,30 @@
 		(uuid "2b09e40b-0b79-4136-b3a7-6f023e87701e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.161 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VEE_12V"
+		(shape input)
+		(at 87.63 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "421e9a7c-089a-419e-9dcf-6a4c3908cad2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.783 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3258,7 +3288,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 58.42 90)
+		(at 91.44 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3269,7 +3299,7 @@
 		(fields_autoplaced yes)
 		(uuid "7545fd31-e305-45a3-b891-4d8e9fc84fda")
 		(property "Reference" "R19"
-			(at 90.17 52.07 90)
+			(at 91.44 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3279,7 +3309,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 90.17 54.61 90)
+			(at 91.44 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3289,7 +3319,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 90.17 60.198 90)
+			(at 91.44 60.198 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 58.42 0)
+			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 58.42 0)
+			(at 91.44 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4361,6 +4391,87 @@
 			(project "Autobalanced_Photodetector"
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e554ed-a084-4ca2-932e-fc6b03aa2954")
+		(property "Reference" "R54"
+			(at 90.17 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 90.17 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 89.408 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ce4506a-8c54-4a35-b084-527c417f4d15")
+		)
+		(pin "2"
+			(uuid "10387356-594c-4dff-9899-a61af026b885")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/653c35b7-5418-4860-b061-8fcbd490b9c8"
+					(reference "R54")
 					(unit 1)
 				)
 			)

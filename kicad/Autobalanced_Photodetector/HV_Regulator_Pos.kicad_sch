@@ -1423,6 +1423,12 @@
 		(uuid "98124415-0ba2-4765-a366-4f91584ae44a")
 	)
 	(junction
+		(at 35.56 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0a19fa5-ae36-4c3b-83be-52ede56db6de")
+	)
+	(junction
 		(at 104.14 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1558,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 85.09) (xy 44.45 85.09)
+			(xy 43.18 85.09) (xy 44.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1585,16 +1591,6 @@
 			(type default)
 		)
 		(uuid "1c987705-6ff9-40d2-bced-868fd026bc3a")
-	)
-	(wire
-		(pts
-			(xy 35.56 85.09) (xy 34.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a1304d-8440-40cb-bc3f-511b9e73b9d9")
 	)
 	(wire
 		(pts
@@ -1775,6 +1771,16 @@
 			(type default)
 		)
 		(uuid "4c0484a5-580e-455e-b230-9d772e9cb350")
+	)
+	(wire
+		(pts
+			(xy 35.56 78.74) (xy 35.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53da4bce-81b5-48ce-ad22-c582882d9e75")
 	)
 	(wire
 		(pts
@@ -2294,6 +2300,30 @@
 			)
 		)
 	)
+	(global_label "VCC_12V"
+		(shape input)
+		(at 35.56 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b72e1d0b-710c-4200-85de-4daefb30e443")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.471 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VEE_12V"
 		(shape input)
 		(at 43.18 137.16 180)
@@ -2581,6 +2611,87 @@
 				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/8217920b-28da-4932-a43e-d0f9a2380639"
 					(reference "U7")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3581c7-f78c-4654-ba24-5108204172f2")
+		(property "Reference" "R53"
+			(at 38.1 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 38.1 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 37.338 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbd2f4cf-0d1f-4bd0-9df7-aa20f0159d38")
+		)
+		(pin "2"
+			(uuid "4909bf5f-92b5-4956-8ed4-e27d3ed10aa9")
+		)
+		(instances
+			(project "Autobalanced_Photodetector"
+				(path "/2d6b7b74-30a5-4a1f-b76b-2ac96e8a37e9/8217920b-28da-4932-a43e-d0f9a2380639"
+					(reference "R53")
+					(unit 1)
 				)
 			)
 		)
@@ -4531,7 +4642,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 85.09 90)
+		(at 39.37 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4542,7 +4653,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecefbea6-f779-45fd-b55b-4094ae6a444f")
 		(property "Reference" "R8"
-			(at 38.1 78.74 90)
+			(at 39.37 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4552,7 +4663,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 38.1 81.28 90)
+			(at 39.37 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4562,7 +4673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 38.1 86.868 90)
+			(at 39.37 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4573,7 +4684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 85.09 0)
+			(at 39.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,7 +4695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 85.09 0)
+			(at 39.37 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
